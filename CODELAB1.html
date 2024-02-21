@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CODELAB MODUL 1</title>
+  <style>
+    table {
+      width: 50%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 2px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <form method="post" action="/submit_form">
+    <table>
+      <tr>
+        <th><label for="name">Nama:</label></th>
+        <td><input type="text" id="name" name="name"></td>
+      </tr>
+      <tr>
+        <th><label for="nim">NIM:</label></th>
+        <td><input type="number" id="nim" name="nim"></td>
+      </tr>
+      <tr>
+        <th><label for="date">Tanggal:</label></th>
+        <td><input type="date" id="date" name="date"></td>
+      </tr>
+      <tr>
+        <th><label for="address">Alamat:</label></th>
+        <td><textarea id="address" name="address" cols="21" rows="5"></textarea></td>
+      </tr>
+    </table>
+    <div>
+      <button type="submit">Simpan</button>
+    </div>
+  </form>
+</body>
+
+</html>
+
